@@ -1,0 +1,84 @@
+label {
+  color:yellow
+}
+
+.container {
+  padding: 10px;
+}
+
+.caja {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  width: 34%;
+  margin-left: 33%;    
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 5px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+
+.boton {
+  position: absolute;
+  background: rgba(255, 255, 0, 0.5);
+  color: black;
+  width: 170px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.botons:hover {
+  position: absolute;
+  background: rgba(255, 255, 0, 0.5);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boton2 {
+  margin-top: 10px;
+  background: rgba(255, 255, 0, 0.5);
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.boton2:hover {
+  margin-top: 10px;
+  background: rgba(255, 255, 0, 0.5);
+  color: black;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.but{
+  background: white;
+  padding: 1px;
+    
+}
+.but:hover{
+  background: lightblue;
+  cursor: pointer;
+  padding: 2px;
+    
+}
+
+.success {
+  border: 1px solid green;
+  border-radius: 3px;
+  /* background-color: rgb(95, 155, 95); */
+}
+
+.error {
+  border: 1px solid red;
+  border-radius: 3px;
+    /* background-color: rgb(189, 92, 92); */
+}

@@ -1,0 +1,28 @@
+.paginado {}
+
+.number {
+  display: inline;
+  margin: 2px;
+  height: 24px;
+  width: 24px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgb(76, 122, 175);
+
+  list-style: none;
+  font-size: 18px;
+}
+
+.number:hover {
+  display: inline;
+  margin: 2px;
+  height: 24px;
+  width: 24px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgb(5, 20, 37);
+  color: white;
+
+  list-style: none;
+  font-size: 18px;
+}

@@ -14,31 +14,28 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    image: {
-      type: DataTypes.STRING,
-    },
     height: {
-      type: DataTypes.INTEGER, 
+      type: DataTypes.STRING,
       allowNull: false,
     },
     weight: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     life_span: {
+      type: DataTypes.INTEGER
+    },
+    image: {
       type: DataTypes.STRING,
     },
-    createdInDb: {
+    createInDb: {
       type: DataTypes.BOOLEAN,
-      allowNull: false,
       defaultValue: true,
+      allowNull: false,
     }
   });
 };
-/**
- * ID *
-Nombre *
-Altura *
-Peso *
-Años de vida
+/*
+ ID: *
+name, image, height, weight , life_span, createdInDb
  */

@@ -1,0 +1,21 @@
+.card{
+  width: 100%;
+  margin: 10px;
+}
+
+.caja{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.caja:hover{
+  transition-duration: 0.5s;
+  border: 1px solid black;
+  border-radius: 3px;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  opacity: 0.7;
+}
+.paquete{
+  width: 300px;
+  height: 180px;
+}

@@ -1,0 +1,74 @@
+.principal {
+  /* background: #ADCA6F; */
+  /* background: #A2CBD8; */
+  background: #DFAC53;
+}
+
+.select {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.select:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-top: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+.tittle {
+  color: yellow;
+  font-size: 40px;
+}
+
+.containerRefresh {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+.refresh {
+  position: absolute;
+  transition-delay: 0.2s;
+  background-color: rgba(255, 255, 0, 0.3);
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: solid 1px black;
+  margin-bottom: 50px;
+  
+}
+
+.refresh:hover {
+  position: absolute;
+  transition-delay: 0.2s;
+  background-color: rgba(255, 255, 0, 0.3);
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: solid 1px black;
+}
+
+.paginated {
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+  justify-content: space-around;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+
+}
