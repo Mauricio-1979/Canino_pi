@@ -16,7 +16,7 @@ const getApiInfo = async () => {
       height: item.height.metric,
       weight: item.weight.metric,
       life_span: item.life_span,
-      image: item.image.url,
+      image: `https://cdn2.thedogapi.com/images/${item.reference_image_id}.jpg`,
       temperament: item.temperament ? item.temperament :
         "no temperament",
       weightFiltro: item.weight.metric !== "NaN" ?
@@ -24,6 +24,7 @@ const getApiInfo = async () => {
     }
   })
   return apiInfo;
+  
 }
 
 
@@ -111,4 +112,5 @@ route.get("/dogs/:id", async (req, res, next) => {
     next(error);
   }
 })
+
 module.exports = route;
