@@ -19,13 +19,13 @@ const getApiList = async () => {
 
 route.get("/", async (req, res, next) => {
   try {
-    // var traeApi = await getApiList();
+    var traeApi = await getApiList();
 
-    // traeApi.forEach(el => {
-    //   Temperament.findOrCreate({
-    //     where: { name: el }
-    //   })
-    // });
+    traeApi.forEach(el => {
+      Temperament.findOrCreate({
+        where: { name: el }
+      })
+    });
     const allTemperaments = await Temperament.findAll();
     res.status(200).send(allTemperaments);
   } catch (error) {
