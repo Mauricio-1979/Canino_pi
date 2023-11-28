@@ -12,11 +12,16 @@ export const DELETE_DETAIL = 'deleteDetail';
 
 export function getDogs() {
   return async function (dispatch) {
-    var result = await axios.get("/dogs")
+    try{
+    var result = await axios.get("/dogs") 
+    
     return dispatch({
       type: GET_DOGS,
       payload: result.data
     })
+  }catch(err){
+    console.log(err)
+  }
   }
 }
 
